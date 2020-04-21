@@ -1,6 +1,40 @@
-# Default ignored files
-/workspace.xml
+# maven ignore
+target/
+*.war
+*.zip
+*.tar
+*.tar.gz
 
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+# eclipse ignore
+.settings/
+.project
+.classpath
+.springBeans
+
+# IntelliJ ignore
+*.iml
+*.ipr
+*.iws
+**/.idea/
+.idea/
+out/
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+*.factorypath
+
+/.apt_generated/
+
+# maven version
+pom.xml.versionsBackup
+
+**/overlays/
